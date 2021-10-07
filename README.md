@@ -1,7 +1,6 @@
 ## Exam
 
 ### 1.System Design
-<hr/>
 Demo  
 https://www.url-shortener.mragunt.com  
 

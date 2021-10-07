@@ -1,6 +1,9 @@
 ## Exam
 
 ### 1.System Design
+
+![alt text](https://exam.mragunt.com/url-flow.png)
+
 Demo  
 https://www.url-shortener.mragunt.com  
 

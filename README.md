@@ -4,7 +4,7 @@ Exam
 
 https://www.url-shortener.mragunt.com  
 
-database - mongodb  
+database - Mongodb  
 back-end - Node.js  
 front-end - Angular  
 deployment - link ระบบที่ส่งให้ ณ ตอนนี้จะใช้ linux hosting ของ nokhosting โดยใช้ cpanel จัดการ ส่วนของ database จะใช้ mongodb atlas เนื่องจาก hosting ที่เช่าอยู่ปัจจุบันไม่มี mongodb ครับ (แต่ถ้าหากจะใช้งานแบบจริงๆจังๆ และระบบมีปริมาณผู้ใช้งานเยอะ ผมอาจจะเลือกใช้ AWS หรือ GCP เนื่องจากบริการรองรับหลายอย่าง ไม่ต้องมีการดูแลจัดการมากมาย รวมถึงการทำ auto scale ได้ง่าย)  

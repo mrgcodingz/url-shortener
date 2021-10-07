@@ -1,6 +1,6 @@
 Exam
 
-1.System Design ระบบย่อ link  
+1.System Design
 
 https://www.url-shortener.mragunt.com  
 

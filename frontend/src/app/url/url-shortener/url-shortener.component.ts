@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { UrlService } from '../../url-shortener.service'
+import { UrlService } from '../../services/url-shortener.service'
 
 @Component({
   selector: 'app-url-shortener',

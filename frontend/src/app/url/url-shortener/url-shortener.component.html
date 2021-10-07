@@ -1,0 +1,28 @@
+<div id="wrap" class="input" *ngIf="!status.waiting">
+
+  <header class="input-header">
+    <h1>URL Shortener</h1>
+  </header>
+
+  <section class="input-content">
+    <div class="input-content-wrap">
+      <dl class="inputbox">
+        <dt class="inputbox-title">Input URL</dt>
+        <dd class="inputbox-content">
+          <input id="input0" type="text" [(ngModel)]="newUrl" (input)='onTextChange()' required />
+          <label for="input0">URL</label>
+          <span class="underline"></span>
+        </dd>
+      </dl>
+
+      <p *ngIf="errorMessage" style="text-align: center; color: red;">{{errorMessage}}</p>
+
+      <div class="btns">
+        <button *ngIf="!status.shortened" (click)="submit()" class="btn btn-confirm"
+          style="cursor: pointer;">Shorten</button>
+        <button *ngIf="status.shortened" (click)="copyShortLink()" class="btn btn-success"
+          style="cursor: pointer;">Copy</button>
+      </div>
+    </div>
+  </section>
+</div>
